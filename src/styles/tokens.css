@@ -1,0 +1,34 @@
+:root {
+  /* Arena Sapphire, Peach & Neon Palette (clean-room match to reference visuals) */
+  --bg: #081e36;
+  --bg-deep: #051324;
+  --bg-raised: #0e2d4f;
+  --ink: #ffffff;
+  --ink-dim: rgba(255, 255, 255, 0.72);
+  --peach: #f89953;
+  --peach-light: #fbb17a;
+  --peach-dark: #b95e22;
+  --cyan: #72e6ff;
+  --cyan-glow: #38c8f5;
+  --red: #ff3144;
+  --blue: #2e84e6;
+  --gold: #ffdb4b;
+  --gold-neon: #ffd670;
+  --frame: rgba(255, 255, 255, 0.42);
+  --radius: 12px;
+  --margin: 14px;
+
+  /* Type: clean-room open-license stacks with instant fallback */
+  --font-display: 'Barlow Condensed', 'Impact', 'Arial Narrow', sans-serif;
+  --font-script: 'Yellowtail', 'Brush Script MT', 'Segoe Script', cursive;
+  --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --main-size: clamp(14px, 1.35vw, 22px);
+  --inner-height: 100vh;
+}
+
+@media (min-width: 1350px) {
+  :root {
+    --main-size: 22px;
+  }
+}
